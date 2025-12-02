@@ -139,7 +139,6 @@ aside ul li i {
 
 .page .head {
     height: 60px;
-    flex: 1;
     box-shadow: 0 0 10px #ddd;
     background-color: #F4F4F4;
 }
@@ -191,7 +190,7 @@ aside ul li i {
     border-radius: 50%;
 }
 
-/* .page h1 {
+.page h1 {
     margin: 20px 20px 40px;
 }
 
@@ -228,7 +227,19 @@ aside ul li i {
         margin-right: 10px;
         gap: 10px;
     }
-} */
+
+    .page h1 {
+        margin-left: 10px;
+    }
+
+    .head .search input {
+        width: 160px;
+    }
+
+    .head .search input:focus {
+        width: 200px;
+    }
+}
 
 /* End Content */
 /* Start Welcome Widget */
