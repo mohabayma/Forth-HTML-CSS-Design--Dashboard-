@@ -47,7 +47,7 @@ ul {
 
 .page {
     /* background-color: #f1f5f9; */
-    background-color: #ffffff;
+    background-color: #BFBFBF;
     min-height: 100vh;
 }
 
@@ -209,7 +209,7 @@ aside ul li i {
 }
 
 .page h1::before {
-    background-color: white;
+    background-color: #ddd;
     width: 120px;
 }
 
