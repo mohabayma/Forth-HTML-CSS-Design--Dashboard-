@@ -5,7 +5,7 @@
     --green-color: #22c55e;
     --red-color: #f44336;
     --grey-color: #888;
-    --page-background-color: #D9D9D9;
+    --page-background-color: #E0E0E0;
     /*#bfbfbf; */
     --aside-head-color: #ccc;
     --wedgit-background-color: #f4f4f4;
@@ -57,7 +57,7 @@ ul {
 
 /* Start Sidebar */
 .page aside {
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+    box-shadow: 3px 0 15px rgba(0, 0, 0, 0.18);
     background-color: var(--aside-head-color);
 }
 
@@ -148,7 +148,8 @@ aside ul li i {
 
 .page .head {
     height: 60px;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.20);
+
     background-color: var(--aside-head-color);
 }
 
@@ -213,7 +214,7 @@ aside ul li i {
 }
 
 .page h1::before {
-    background-color: #ddd;
+    background-color: #f4f4f4;
     width: 120px;
 }
 
