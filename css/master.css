@@ -52,7 +52,8 @@ ul {
 
 /* Start Sidebar */
 .page aside {
-    box-shadow: 0 0 10px #ddd;
+    /* box-shadow: 0 0 10px #ddd; */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
     background-color: #F4F4F4;
 }
 
@@ -130,7 +131,13 @@ aside ul li i {
     aside ul li i {
         margin-right: 0px;
     }
+
+    aside ul li {
+        margin-bottom: 12px;
+    }
 }
+
+aside ul li a {}
 
 /* Start Content */
 .content {
@@ -139,7 +146,8 @@ aside ul li i {
 
 .page .head {
     height: 60px;
-    box-shadow: 0 0 10px #ddd;
+    /* box-shadow: 0 0 10px #ddd; */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
     background-color: #F4F4F4;
 }
 
@@ -387,3 +395,17 @@ aside ul li i {
 
 /* End Targets */
 /* Start Tickets */
+/* Start Tickets */
+.tickets .box {
+    border: 1px solid #ccc;
+    width: calc(50% - 10px);
+}
+
+@media (max-width: 767px) {
+    .tickets .box {
+        width: 100%;
+    }
+}
+
+/* End Tickets */
+/* Start Latest News */
