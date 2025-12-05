@@ -9,6 +9,14 @@
     /*#bfbfbf; */
     --aside-head-color: #ccc;
     --wedgit-background-color: #f4f4f4;
+    --bg: #0f1622;
+    --sidebar: #0a121d;
+    --header: #111a2a;
+    --widget: #131d2f;
+    --accent-1: #7c5cff;
+    --accent-2: #00e0ff;
+    --text: #e9eef7;
+    --muted: #9aa5b5;
 }
 
 * {
@@ -703,3 +711,58 @@ aside ul li i {
 }
 
 /* End Social Media */
+/* Start Projects Table */
+.projects {
+    background-color: var(--wedgit-background-color);
+}
+
+.projects .responsive-table {
+    overflow-x: auto;
+
+}
+
+.projects table {
+    min-width: 1000px;
+    border-spacing: 0;
+}
+
+.projects thead td {
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+.projects table td {
+    padding: 15px;
+}
+
+.projects tbody td {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.projects table tbody tr td:last-child {
+    border-right: 1px solid #ccc;
+}
+
+.projects tbody tr:hover td {
+    background-color: #faf7f7;
+}
+
+.projects table img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+}
+
+.projects table img:not(:first-child) {
+    margin-left: -20px;
+}
+
+.projects table .label {
+    font-size: 13px;
+}
+
+/* End Projects Table */
