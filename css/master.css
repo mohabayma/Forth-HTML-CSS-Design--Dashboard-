@@ -1037,6 +1037,10 @@ aside ul li i {
     .profile-page .avatar-box {
         border-right: 1px solid #ccc;
     }
+
+    .profile-page .overview .info-box .box .email {
+        font-size: 12px;
+    }
 }
 
 .profile-page .avatar-box>img {
@@ -1049,6 +1053,7 @@ aside ul li i {
     overflow: hidden;
     margin: auto;
     width: 70%;
+    background-color: #ccc;
 }
 
 .profile-page .avatar-box .level span {
@@ -1059,6 +1064,7 @@ aside ul li i {
     background-color: var(--blue-color);
     border-radius: 6px;
 }
+
 
 .profile-page .info-box .box {
     flex-wrap: wrap;
